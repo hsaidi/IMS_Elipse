@@ -20,9 +20,11 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*
+        // Dessin .............................................................
         Paint paint = new Paint();
         paint.setColor(Color.parseColor("#000000"));
-        Bitmap bg = Bitmap.createBitmap(480, 800, Bitmap.Config.ARGB_8888);
+        Bitmap bg = Bitmap.createBitmap(1250, 1920, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(bg);
         canvas.drawRect(50, 50, 200, 200, paint);
         LinearLayout ll = (LinearLayout) findViewById(R.id.rect);
@@ -34,7 +36,8 @@ public class MainActivity extends ActionBarActivity {
         } else {
             ll.setBackground(new BitmapDrawable(getResources(), bg));
         }
-
+        //.....................................................................
+        */
     }
 
     @Override
