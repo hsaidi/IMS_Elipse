@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/popup_connexions"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:duplicateParentState="false">
+
+    <Button
+    android:id="@+id/bind"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".15"
+    android:layout_margin="1dp"
+    android:gravity="center"
+
+    android:background="@drawable/conn_button"
+
+    android:text="Binding"
+    android:textColor="@android:color/white"
+    android:textSize="12sp"
+    android:shadowRadius="1"
+    android:shadowDx="1"
+    android:shadowDy="1"
+    android:shadowColor="@android:color/black"
+    ></Button>
+
+    <Button
+        android:id="@+id/activation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:layout_margin="1dp"
+        android:gravity="center"
+
+        android:background="@drawable/conn_button"
+
+        android:text="Activation"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/black"
+        ></Button>
+
+    <Button
+        android:id="@+id/degradation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:layout_margin="1dp"
+        android:gravity="center"
+
+        android:background="@drawable/conn_button"
+
+        android:text="Degradation"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/black"
+        ></Button>
+
+
+    <Button
+        android:id="@+id/inhibition"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:layout_margin="1dp"
+        android:gravity="center"
+
+        android:background="@drawable/conn_button"
+
+        android:text="Inhibition"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/black"
+        ></Button>
+
+    <Button
+        android:id="@+id/phosphorisation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:layout_margin="1dp"
+        android:gravity="center"
+
+        android:background="@drawable/conn_button"
+
+        android:text="Phosphorisation"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/black"
+        ></Button>
+
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/popup"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:duplicateParentState="false">
+
+    <Button
+    android:id="@+id/binding"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".15"
+    android:layout_margin="1dp"
+    android:gravity="center"
+
+    android:background="@drawable/nice_button"
+
+    android:text="Binding"
+    android:textColor="@android:color/white"
+    android:textSize="12sp"
+    android:shadowRadius="1"
+    android:shadowDx="1"
+    android:shadowDy="1"
+    android:shadowColor="@android:color/black"
+    ></Button>
+
+    <Button
+        android:id="@+id/protein"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:layout_margin="1dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+        android:text="Protein"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/black"
+        ></Button>
+
+    <Button
+        android:id="@+id/molecule"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:layout_margin="1dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+        android:text="Molecule"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/black"
+        ></Button>
+
+    <Button
+        android:id="@+id/phospho"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:layout_margin="1dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+        android:text="Phospho"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/black"
+        ></Button>
+
+    <Button
+        android:id="@+id/degrad"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:layout_margin="1dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+        android:text="Degrad"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/black"
+        ></Button>
+
+    <Button
+        android:id="@+id/concept"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:layout_margin="1dp"
+        android:gravity="center"
+
+        android:background="@drawable/nice_button"
+
+        android:text="Concept"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@android:color/black"
+        ></Button>
+</LinearLayout>
